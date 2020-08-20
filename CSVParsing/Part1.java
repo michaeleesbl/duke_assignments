@@ -50,7 +50,7 @@ public class Part1 {
         }
     }
     
-        public void testListExportersTwoProducts(String exportItem1, String exportItem2)
+    public void testListExportersTwoProducts(String exportItem1, String exportItem2)
     {
         FileResource fr = new FileResource();
         CSVParser parser = fr.getCSVParser();
@@ -87,5 +87,11 @@ public class Part1 {
                 System.out.println(country + " " + value);
             }
         }        
+    }
+    
+    public void testBigExporters(String amount){
+        FileResource fr = new FileResource();
+        CSVParser parser = fr.getCSVParser();
+        bigExporters(parser, amount);
     }
 }

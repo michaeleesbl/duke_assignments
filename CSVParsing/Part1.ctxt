@@ -17,4 +17,6 @@ comment7.params=exportItem
 comment7.target=void\ testNumOfExporters(java.lang.String)
 comment8.params=parser\ amount
 comment8.target=void\ bigExporters(org.apache.commons.csv.CSVParser,\ java.lang.String)
-numComments=9
+comment9.params=amount
+comment9.target=void\ testBigExporters(java.lang.String)
+numComments=10
